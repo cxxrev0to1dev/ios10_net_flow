@@ -1,0 +1,257 @@
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /bag.xml?ix=6&os=10&locale=zh-Hans_VN HTTP/1.1
+Host: init.itunes.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-Store-Front: 143465-19,29
+If-Modified-Since: Mon, 24 Apr 2017 11:38:03 GMT
+Accept-Language: zh-Hans-VN
+Accept-Encoding: gzip, deflate
+X-Apple-I-MD-RINFO: 17106176
+X-Apple-I-MD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKB4kAzDhs0nQMxV2FqeLNF2q3gPqFevxfXP04LFVjbZGjYQ41FwOPix
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:16:52Z
+X-Apple-I-MD: AAAABQAAABAUByTXpBq93XM0XIGapx6JAAAAAw==
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+X-Dsid: 10878653435
+Cookie: mz_at_ssl-10878653435=AwUAAAFZAAGHaAAAAABY/eOW8BwfItEC+Bjs8gC3BE4hYWzroDI=; wosid-lite=GlSI0toLyabKJbwtRbYTZw; pldfltcid=cf6c93a647f34c2d8d61844214ce88fc029; mt-asn-10878653435=1; itspod=29; mz_at0-10878653435=AwQAAAFZAAGHaAAAAABY/eOWifMT4/i9jpClj3kb7nSZJVX9hTg=; xp_ci=3z1Ni8Q9zGIrz5PFzBBaz1AEkDa6bA; mt-tkn-10878653435=AgiobR3EagByVrEWFb2dkSYp9jgbDS1zHpGUVhqbSoYz1UElL/KXvSLA7/WTBcfmXU76tQvz16yWzCMMNO+dbQ55oajA8IMBMu0hC3M9hH0NCT86p/99f2QbQ1g+WgDW6N7S9eZ/C6nGi9i6ZnHfQzbgOEBv+Q/mNSQXu39pMmNZr7tf8gQMWpytDQC0GJgE03B2yJM=; xp_abc=ueJuOxs1; xt-b-ts-10878653435=1493033882418; X-Dsid=10878653435; xt-src=b; xp_ab=1#isj11bm+8895+ueJuOxs1
+X-Apple-Tz: 28800
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /register HTTP/1.1
+Host: xp.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-Store-Front: 143465-19,29
+Accept-Language: zh-Hans-VN
+Accept-Encoding: gzip, deflate
+X-Apple-I-MD-RINFO: 17106176
+X-Apple-I-MD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKB4kAzDhs0nQMxV2FqeLNF2q3gPqFevxfXP04LFVjbZGjYQ41FwOPix
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:16:53Z
+X-Apple-I-MD: AAAABQAAABAUByTXpBq93XM0XIGapx6JAAAAAw==
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+X-Dsid: 10878653435
+Cookie: X-Dsid=10878653435; xp_abc=ueJuOxs1; xp_ci=3z1Ni8Q9zGIrz5PFzBBaz1AEkDa6bA; pldfltcid=cf6c93a647f34c2d8d61844214ce88fc029; mz_at0-10878653435=AwQAAAFZAAGHaAAAAABY/eOWifMT4/i9jpClj3kb7nSZJVX9hTg=; xt-b-ts-10878653435=1493033882418; xp_ab=1#isj11bm+8895+ueJuOxs1; xt-src=b; mz_at_ssl-10878653435=AwUAAAFZAAGHaAAAAABY/eOW8BwfItEC+Bjs8gC3BE4hYWzroDI=; itspod=29; wosid-lite=GlSI0toLyabKJbwtRbYTZw
+X-Apple-Tz: 28800
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+HEAD /apple-assets-us-std-000001/Purple122/v4/ee/4e/8f/ee4e8fb0-bb06-a19b-1cf3-73fcabde417d/pre-thinned5369370007444863560.thinned.signed.dpkg.ipa?accessKey=1493281350_3564340040996362414_CgBRXmJsLz2AP5j0%2BwSVxC%2BBZHVM3HPENvMoKQFpd3oDNgQx%2BhqHqNAu4r2hQuL0cOEaM7ch5g%2B76wpxGbwTXXMQ%2FS%2Fe7F0F1JDzejySz0MolpmhVLb7y444wC9gMiHqoEDKyKpLfmTzxx78u%2B%2BwxlJid6xg7sthcW6K1Xj7jXfhQbjo%2BTTwVu0yZZPohvglOUXkoymcHmsN68uOr7YuolOYFXOJhLS64UG8oIRu2NI%3D HTTP/1.1
+Host: iosapps.itunes.apple.com
+X-Apple-Store-Front: 143465-19,29
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-Hans-VN
+Accept: */*
+Content-Length: 0
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:22:32Z
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+Connection: keep-alive
+X-Dsid: 10878653435
+Cookie: downloadKey=null
+X-Apple-Tz: 28800
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /us/r30/Purple122/v4/6b/b7/df/6bb7df82-b504-201a-997e-91ffe4716f57/icon114x114.png HTTP/1.1
+Host: a4.mzstatic.com
+X-Apple-Store-Front: 143465-19,29
+Accept: */*
+X-Apple-I-Client-Time: 2017-04-25T02:22:32Z
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+X-Dsid: 10878653435
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+Accept-Language: zh-Hans-VN
+X-Apple-Tz: 28800
+X-Apple-Connection-Type: WiFi
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /bag.xml?ix=6&os=10&locale=zh-Hans_VN HTTP/1.1
+Host: init.itunes.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-Store-Front: 143465-19,29
+Accept-Language: zh-Hans-VN
+Accept-Encoding: gzip, deflate
+X-Apple-I-MD-RINFO: 17106176
+X-Apple-I-MD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKB4kAzDhs0nQMxV2FqeLNF2q3gPqFevxfXP04LFVjbZGjYQ41FwOPix
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:22:32Z
+X-Apple-I-MD: AAAABQAAABDi529Qt3OVwKG0gM9kTkniAAAAAw==
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+X-Dsid: 10878653435
+Cookie: mz_at_ssl-10878653435=AwUAAAFZAAGHaAAAAABY/rLZEze0JUfL7eF+aI4o3cwEk+cgsME=; wosid-lite=cH1zOIImoo7420VAJPG5Xg; pldfltcid=cf6c93a647f34c2d8d61844214ce88fc029; mt-asn-10878653435=5; itspod=29; mz_at0-10878653435=AwQAAAFZAAGHaAAAAABY/rLZ6u/RaVRS+Zb125BwVFdVOQtMEr8=; xp_ci=3z1Ni8Q9zGIrz5PFzBBaz1AEkDa6bA; mt-tkn-10878653435=AtWDGBwHAfluU3MjEHo9M2cdbBwOKcq4YfAAS6N2GzgEitsc4jGkKM6JKJQND1BvKKulowp55V1oeBxDWlUYFIHVgu00cTuntCIfEylhzvzHznf8AXiDQEZ6e8meTBRBFZFZaCFtpoTZm6Ya92P389Hpv/7m0SM8qw4nwWnD+oyZzN4Ie2aqcW341UDoaVCb/Vjl2lc=; xp_abc=ueJuOxs1; xt-b-ts-10878653435=1493086949371; X-Dsid=10878653435; xt-src=b; xp_ab=1#isj11bm+8895+ueJuOxs1
+X-Apple-Tz: 28800
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /register HTTP/1.1
+Host: xp.apple.com
+Connection: keep-alive
+Accept: */*
+X-Apple-Store-Front: 143465-19,29
+Accept-Language: zh-Hans-VN
+Accept-Encoding: gzip, deflate
+X-Apple-I-MD-RINFO: 17106176
+X-Apple-I-MD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKB4kAzDhs0nQMxV2FqeLNF2q3gPqFevxfXP04LFVjbZGjYQ41FwOPix
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:22:33Z
+X-Apple-I-MD: AAAABQAAABDi529Qt3OVwKG0gM9kTkniAAAAAw==
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+X-Dsid: 10878653435
+Cookie: X-Dsid=10878653435; xp_abc=ueJuOxs1; xp_ci=3z1Ni8Q9zGIrz5PFzBBaz1AEkDa6bA; pldfltcid=cf6c93a647f34c2d8d61844214ce88fc029; mz_at0-10878653435=AwQAAAFZAAGHaAAAAABY/rLZ6u/RaVRS+Zb125BwVFdVOQtMEr8=; xt-b-ts-10878653435=1493086949371; xp_ab=1#isj11bm+8895+ueJuOxs1; xt-src=b; mz_at_ssl-10878653435=AwUAAAFZAAGHaAAAAABY/rLZEze0JUfL7eF+aI4o3cwEk+cgsME=; itspod=29; wosid-lite=cH1zOIImoo7420VAJPG5Xg
+X-Apple-Tz: 28800
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /us/r30/Purple122/v4/6b/b7/df/6bb7df82-b504-201a-997e-91ffe4716f57/icon1024x1024.jpeg HTTP/1.1
+Host: a4.mzstatic.com
+X-Apple-Store-Front: 143465-19,29
+Accept: */*
+X-Apple-I-Client-Time: 2017-04-25T02:23:09Z
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+X-Dsid: 10878653435
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+Accept-Language: zh-Hans-VN
+X-Apple-Tz: 28800
+X-Apple-Connection-Type: WiFi
+
+
+FROM /System/Library/Frameworks/CFNetwork.framework/CFNetwork(0x18707c000)-<redacted>(0x18728f53c=>0x21253c):
+<(
+	0   net_flow.dylib                      0x00000001004d37a0 LogDataImpl + 668
+	1   net_flow.dylib                      0x00000001004d33ac FnSSLRawWrite + 228
+	2   CFNetwork                           0x000000018728fa28 <redacted> + 1260
+	3   libdispatch.dylib                   0x00000001859061fc <redacted> + 24
+	4   libdispatch.dylib                   0x00000001859061bc <redacted> + 16
+	5   libdispatch.dylib                   0x00000001859143dc <redacted> + 928
+	6   libdispatch.dylib                   0x00000001859099a4 <redacted> + 652
+	7   libdispatch.dylib                   0x000000018591634c <redacted> + 572
+	8   libdispatch.dylib                   0x00000001859160ac <redacted> + 124
+	9   libsystem_pthread.dylib             0x0000000185b0f2a0 _pthread_wqthread + 1288
+	10  libsystem_pthread.dylib             0x0000000185b0ed8c start_wqthread + 4
+)>
+
+GET /WebObjects/MZFastFinance.woa/wa/songDownloadDone?download-id=290020131613723&songId=1203185844&guid=3b6ddb916ba2c33620b9c25e8ca020a53e549c36 HTTP/1.1
+Host: p29-buy.itunes.apple.com
+X-Apple-AMD: AAAABAAAABCKj+OUXCdS6tSojNh/VjYV
+Connection: keep-alive
+Accept: */*
+X-Apple-Store-Front: 143465-19,29
+Accept-Language: zh-Hans-VN
+Accept-Encoding: gzip, deflate
+X-Apple-I-MD-RINFO: 17106176
+X-Apple-I-MD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKB4kAzDhs0nQMxV2FqeLNF2q3gPqFevxfXP04LFVjbZGjYQ41FwOPix
+X-Apple-AMD-M: 1VqK5GZaPWwjg7e/nzoK7SgXZKAeQ9retGY4MXTMw/FfFrJGqBenSRrE2cyXOTWJ0v3CkfBoowonKUUL
+X-Apple-Connection-Type: WiFi
+X-Apple-I-Client-Time: 2017-04-25T02:23:12Z
+X-Apple-I-MD: AAAABQAAABAiwA779slktPf2l5WrP4aEAAAAAw==
+User-Agent: com.apple.appstored/1.0 iOS/10.2 model/iPhone6,1 hwp/s5l8960x build/14C92 (6; dt:89)
+X-Dsid: 10878653435
+Cookie: mz_at_ssl-10878653435=AwUAAAFZAAGHaAAAAABY/rLZEze0JUfL7eF+aI4o3cwEk+cgsME=; wosid-lite=cH1zOIImoo7420VAJPG5Xg; pldfltcid=cf6c93a647f34c2d8d61844214ce88fc029; xt-src=b; session-store-id=3681BD165AC56B5611C1D4DDA653ABA8; mzf_in=292592; mt-asn-10878653435=5; mz_at0-10878653435=AwQAAAFZAAGHaAAAAABY/rLZ6u/RaVRS+Zb125BwVFdVOQtMEr8=; itspod=29; xp_ci=3z1Ni8Q9zGIrz5PFzBBaz1AEkDa6bA; mt-tkn-10878653435=AtWDGBwHAfluU3MjEHo9M2cdbBwOKcq4YfAAS6N2GzgEitsc4jGkKM6JKJQND1BvKKulowp55V1oeBxDWlUYFIHVgu00cTuntCIfEylhzvzHznf8AXiDQEZ6e8meTBRBFZFZaCFtpoTZm6Ya92P389Hpv/7m0SM8qw4nwWnD+oyZzN4Ie2aqcW341UDoaVCb/Vjl2lc=; xp_abc=ueJuOxs1; xt-b-ts-10878653435=1493086949371; hsaccnt=1; X-Dsid=10878653435; ns-mzf-inst=39-83-443-96-14-8282-292592-29-nk11; amp=YIRnqVmNTdDdoL6xLXoS2w2esM5uWA8WIBhZxJzNllPS13Zou87Gr9iPEgwPGYJnj40H7qgueyc9Ouv33+bKUKb3dles3437fm+jcFDlw4taKEGuR+V8VKhjziL8BPXPaNLliqxfdMClj+QC4SKIoaYkd/BhEAEoeUFe1vsvmaU=; xp_ab=1#isj11bm+8895+ueJuOxs1
+X-Apple-Tz: 28800
+

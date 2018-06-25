@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1D905E1EADE0EA0078BED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1D905D1EADE0EA0078BED8 /* Foundation.framework */; };
+		8B8F752B1EADE6DF005BC749 /* HookUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8F75261EADE6DF005BC749 /* HookUtil.h */; };
+		8B8F752C1EADE6DF005BC749 /* HookUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F75271EADE6DF005BC749 /* HookUtil.m */; };
+		8B8F752D1EADE6DF005BC749 /* Macro.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8F75281EADE6DF005BC749 /* Macro.h */; };
+		8B8F752E1EADE6DF005BC749 /* Main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F75291EADE6DF005BC749 /* Main.mm */; };
+		8B8F752F1EADE6DF005BC749 /* NSUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8F752A1EADE6DF005BC749 /* NSUtil.h */; };
+		8B8F75441EADF0D1005BC749 /* logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F75411EADF0D1005BC749 /* logger.m */; };
+		8B8F75461EADF0D1005BC749 /* ssl_hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8F75431EADF0D1005BC749 /* ssl_hook.m */; };
+		8B8F75481EADF13A005BC749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F75471EADF13A005BC749 /* UIKit.framework */; };
+		8B8F754B1EADF1EE005BC749 /* libsubstrate_arm64.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F75491EADF1EE005BC749 /* libsubstrate_arm64.dylib */; };
+		8B8F754C1EADF1EE005BC749 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F754A1EADF1EE005BC749 /* libsubstrate.dylib */; };
+		8B8F754E1EADF1FF005BC749 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8F754D1EADF1FF005BC749 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1D905A1EADE0EA0078BED8 /* net_flow.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = net_flow.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1D905D1EADE0EA0078BED8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8B8F75261EADE6DF005BC749 /* HookUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HookUtil.h; path = src/hook/HookUtil.h; sourceTree = "<group>"; };
+		8B8F75271EADE6DF005BC749 /* HookUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HookUtil.m; path = src/hook/HookUtil.m; sourceTree = "<group>"; };
+		8B8F75281EADE6DF005BC749 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = src/hook/Macro.h; sourceTree = "<group>"; };
+		8B8F75291EADE6DF005BC749 /* Main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Main.mm; path = src/hook/Main.mm; sourceTree = "<group>"; };
+		8B8F752A1EADE6DF005BC749 /* NSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSUtil.h; path = src/hook/NSUtil.h; sourceTree = "<group>"; };
+		8B8F75411EADF0D1005BC749 /* logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = logger.m; path = src/net_flow/logger.m; sourceTree = SOURCE_ROOT; };
+		8B8F75431EADF0D1005BC749 /* ssl_hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ssl_hook.m; path = src/net_flow/ssl_hook.m; sourceTree = SOURCE_ROOT; };
+		8B8F75471EADF13A005BC749 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8B8F75491EADF1EE005BC749 /* libsubstrate_arm64.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate_arm64.dylib; path = src/third_party/lib/libsubstrate_arm64.dylib; sourceTree = "<group>"; };
+		8B8F754A1EADF1EE005BC749 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = src/third_party/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		8B8F754D1EADF1FF005BC749 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8BC5D5AB1EAEE72D008FD1A8 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		8BC5D5AC1EAEE747008FD1A8 /* net_flow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = net_flow.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/net_flow.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B1D90561EADE0EA0078BED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8F754E1EADF1FF005BC749 /* Security.framework in Frameworks */,
+				8B8F754B1EADF1EE005BC749 /* libsubstrate_arm64.dylib in Frameworks */,
+				8B8F754C1EADF1EE005BC749 /* libsubstrate.dylib in Frameworks */,
+				8B8F75481EADF13A005BC749 /* UIKit.framework in Frameworks */,
+				8B1D905E1EADE0EA0078BED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1D904F1EADE0EA0078BED8 = {
+			isa = PBXGroup;
+			children = (
+				8B1D90761EADE1470078BED8 /* src */,
+				8B1D905C1EADE0EA0078BED8 /* Frameworks */,
+				8B1D905B1EADE0EA0078BED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B1D905B1EADE0EA0078BED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D905A1EADE0EA0078BED8 /* net_flow.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B1D905C1EADE0EA0078BED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F754D1EADF1FF005BC749 /* Security.framework */,
+				8B8F75491EADF1EE005BC749 /* libsubstrate_arm64.dylib */,
+				8B8F754A1EADF1EE005BC749 /* libsubstrate.dylib */,
+				8B8F75471EADF13A005BC749 /* UIKit.framework */,
+				8B1D905D1EADE0EA0078BED8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B1D905F1EADE0EA0078BED8 /* net_flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75411EADF0D1005BC749 /* logger.m */,
+				8B8F75431EADF0D1005BC749 /* ssl_hook.m */,
+				8B8F75301EADE72A005BC749 /* Package */,
+			);
+			path = net_flow;
+			sourceTree = "<group>";
+		};
+		8B1D90761EADE1470078BED8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75251EADE6D2005BC749 /* hook */,
+				8B1D905F1EADE0EA0078BED8 /* net_flow */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		8B8F75251EADE6D2005BC749 /* hook */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75261EADE6DF005BC749 /* HookUtil.h */,
+				8B8F75271EADE6DF005BC749 /* HookUtil.m */,
+				8B8F75281EADE6DF005BC749 /* Macro.h */,
+				8B8F75291EADE6DF005BC749 /* Main.mm */,
+				8B8F752A1EADE6DF005BC749 /* NSUtil.h */,
+			);
+			name = hook;
+			sourceTree = "<group>";
+		};
+		8B8F75301EADE72A005BC749 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75321EADE749005BC749 /* Library */,
+				8B8F75311EADE73E005BC749 /* DEBIAN */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		8B8F75311EADE73E005BC749 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				8BC5D5AB1EAEE72D008FD1A8 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		8B8F75321EADE749005BC749 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75331EADE753005BC749 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		8B8F75331EADE753005BC749 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				8B8F75341EADE75D005BC749 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		8B8F75341EADE75D005BC749 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				8BC5D5AC1EAEE747008FD1A8 /* net_flow.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B1D90571EADE0EA0078BED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8F752D1EADE6DF005BC749 /* Macro.h in Headers */,
+				8B8F752F1EADE6DF005BC749 /* NSUtil.h in Headers */,
+				8B8F752B1EADE6DF005BC749 /* HookUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B1D90591EADE0EA0078BED8 /* net_flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B1D90701EADE0EA0078BED8 /* Build configuration list for PBXNativeTarget "net_flow" */;
+			buildPhases = (
+				8B1D90541EADE0EA0078BED8 /* ShellScript */,
+				8B1D90551EADE0EA0078BED8 /* Sources */,
+				8B1D90561EADE0EA0078BED8 /* Frameworks */,
+				8B1D90571EADE0EA0078BED8 /* Headers */,
+				8B1D90581EADE0EA0078BED8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = net_flow;
+			productName = net_flow;
+			productReference = 8B1D905A1EADE0EA0078BED8 /* net_flow.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B1D90501EADE0EA0078BED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					8B1D90591EADE0EA0078BED8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZTS4ZVW6H6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B1D90531EADE0EA0078BED8 /* Build configuration list for PBXProject "net_flow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8B1D904F1EADE0EA0078BED8;
+			productRefGroup = 8B1D905B1EADE0EA0078BED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B1D90591EADE0EA0078BED8 /* net_flow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B1D90541EADE0EA0078BED8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		8B1D90581EADE0EA0078BED8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B1D90551EADE0EA0078BED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8F75441EADF0D1005BC749 /* logger.m in Sources */,
+				8B8F752E1EADE6DF005BC749 /* Main.mm in Sources */,
+				8B8F75461EADF0D1005BC749 /* ssl_hook.m in Sources */,
+				8B8F752C1EADE6DF005BC749 /* HookUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B1D906E1EADE0EA0078BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 9J9K2QW6UF;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		8B1D906F1EADE0EA0078BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 9J9K2QW6UF;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		8B1D90711EADE0EA0078BED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ent.xml;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZTS4ZVW6H6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = SUBSTRATE_BUILD;
+				GENERATE_PKGINFO_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/include/**",
+					"$(SRC_DIR)/src/",
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/lib/**",
+					"$(PROJECT_DIR)/src",
+					"$(PROJECT_DIR)/src/third_party/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Debug;
+		};
+		8B1D90721EADE0EA0078BED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ent.xml;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = ZTS4ZVW6H6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = SUBSTRATE_BUILD;
+				GENERATE_PKGINFO_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/include/**",
+					"$(SRC_DIR)/src/",
+				);
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/lib/**",
+					"$(PROJECT_DIR)/src",
+					"$(PROJECT_DIR)/src/third_party/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "";
+				iOSOpenDevBuildPackageOnAnyBuild = YES;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = NO;
+				iOSOpenDevRespringOnInstall = NO;
+				iOSOpenDevUsePackageVersionPList = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B1D90531EADE0EA0078BED8 /* Build configuration list for PBXProject "net_flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1D906E1EADE0EA0078BED8 /* Debug */,
+				8B1D906F1EADE0EA0078BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B1D90701EADE0EA0078BED8 /* Build configuration list for PBXNativeTarget "net_flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B1D90711EADE0EA0078BED8 /* Debug */,
+				8B1D90721EADE0EA0078BED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B1D90501EADE0EA0078BED8 /* Project object */;
+}
