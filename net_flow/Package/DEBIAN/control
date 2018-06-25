@@ -1,5 +1,5 @@
-Package: com.zbk.none.net-flow
-Name: com.zbk.none.net-flow
+Package: com.appstore.none.net-flow
+Name: com.appstore.none.net-flow
 Version: 0.1-1
 Description: 
 Section: System
@@ -8,7 +8,7 @@ Conflicts:
 Replaces: 
 Priority: optional
 Architecture: iphoneos-arm
-Author: 紫贝壳
+Author: dengtao
 dev: 
 Homepage: 
 Depiction: 
